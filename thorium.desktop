@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Thorium Browser
+GenericName=Thorium
+Comment=Powerful Browser on Chromium
+Comment=Powerful Browser on Chromium
+Exec=/usr/local/thorium/Thorium_Browser_119.0.6045.214.AppImage
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/local/thorium/product_logo_32.png
+StartupWMClass=Thorium
+StartupNotify=true
