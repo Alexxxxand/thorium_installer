@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=Thorium Browser
 GenericName=Thorium
-Comment=Powerful Browser powered by Chromium
-Comment=Powerful Browser powered by Chromium
+Comment=Powerful browser based on Chromium
+Comment=Powerful browser based on Chromium
 Exec=/usr/local/thorium/Thorium_Browser_121.0.6167.204_AVX.AppImage
 X-MultipleArgs=false
 Type=Application
