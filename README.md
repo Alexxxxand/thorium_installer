@@ -57,3 +57,8 @@ cd thorium_installer
 # License
 
 <a href="https://www.gnu.org/licenses/quick-guide-gplv3.en.html">GNU General Public License v3</a>
+
+# Сredits
+[Alexxxxand](https://github.com/Alexxxxand) - Base Code
+
+[Member](https://github.com/memb3r) - Readme and logo
