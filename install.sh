@@ -13,9 +13,18 @@ fi
 curl -L -o "Thorium_Browser.AppImage" "$link"
 chmod +x "Thorium_Browser.AppImage"
 
-sudo mkdir -p "/usr/local/thorium/"
-sudo cp "Thorium_Browser.AppImage" "/usr/local/thorium/" ; sudo cp "thorium_logo.png" "/usr/local/thorium"
-sudo chown $USER:$USER -R "/usr/local/thorium"
-sudo cp "thorium.desktop" "/usr/share/applications/"
+if [[ "$EUID" = 0 ]]; then
+    mkdir -p "/usr/local/thorium/"
+    cp "Thorium_Browser.AppImage" "/usr/local/thorium/"
+    cp "thorium_logo.png" "/usr/local/thorium"
+    chown $USER:$USER -R "/usr/local/thorium"
+    cp "thorium.desktop" "/usr/share/applications/"
+else
+    sudo mkdir -p "/usr/local/thorium/"
+    sudo cp "Thorium_Browser.AppImage" "/usr/local/thorium/"
+    sudo cp "thorium_logo.png" "/usr/local/thorium"
+    sudo chown $USER:$USER -R "/usr/local/thorium"
+    sudo cp "thorium.desktop" "/usr/share/applications/"/
+fi
 
 echo "Installed Successfully!"
