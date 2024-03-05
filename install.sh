@@ -24,7 +24,7 @@ else
     sudo cp "Thorium_Browser.AppImage" "/usr/local/thorium/"
     sudo cp "thorium_logo.png" "/usr/local/thorium"
     sudo chown $USER:$USER -R "/usr/local/thorium"
-    sudo cp "thorium.desktop" "/usr/share/applications/"/
+    sudo cp "thorium.desktop" "/usr/share/applications/"
 fi
 
 echo "Installed Successfully!"
