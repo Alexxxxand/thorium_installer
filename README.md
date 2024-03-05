@@ -61,11 +61,8 @@ cd thorium_installer
 # Сredits
 [Alexxxxand](https://github.com/Alexxxxand) - Base Code
 
-<<<<<<< HEAD
-[Member](https://github.com/memb3r) - Readme and logo
-=======
 [ttfdk](https://github.com/arsenii754) - Big remake of code
 
 [Member](https://github.com/memb3r) - Readme and logo
 
->>>>>>> refs/remotes/origin/main
+
