@@ -64,5 +64,3 @@ cd thorium_installer
 [ttfdk](https://github.com/arsenii754) - Big remake of code
 
 [Member](https://github.com/memb3r) - Readme and logo
-
-
